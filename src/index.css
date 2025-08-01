@@ -228,12 +228,12 @@ nav ul li a:hover::after {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 30px;
 }
 
 .about-image {
   flex: 1;
-  min-width: 300px;
+  min-width: 280px;
   position: relative;
   text-align: center;
 }
@@ -253,15 +253,15 @@ nav ul li a:hover::after {
 .profile-photo-container {
   position: relative;
   display: inline-block;
-  perspective: 1200px;
+  perspective: 1000px;
 }
 
 .profile-photo-container::before {
   content: "";
   position: absolute;
-  width: 250px;
-  height: 280px;
-  top: -10px;
+  width: 220px;
+  height: 250px;
+  top: -8px;
   left: -10px;
   border: 3px solid transparent;
   border-top-color: var(--primary-color);
@@ -273,10 +273,10 @@ nav ul li a:hover::after {
 .profile-photo-container::after {
   content: "";
   position: absolute;
-  width: 250px;
-  height: 280px;
-  top: -20px;
-  left: -20px;
+  width: 220px;
+  height: 250px;
+  top: -15px;
+  left: -15px;
   border: 3px solid transparent;
   border-bottom-color: var(--accent-color);
   border-left-color: var(--accent-color);
